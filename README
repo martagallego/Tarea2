@@ -3,14 +3,15 @@
 Una vez tenemos iniciado docker, debemos descargarnos algunas imágenes mediante el comando  **docker pull** .  
 ![dockerpull.png](imagenes/dockerpull.png)
 
+
 Para comprobar que todas las imágenes se han descargado correctamente, miraremos que se hace un listado con las imágenes descargadas con el comando docker images.  
-![][image2]
+![](imagenes/dockerimages.png)
 
 A continuación, con las imágenes ya descargadas vamos a iniciar un contenedor que tenga la imagen de ubuntu.  
-![][image3]
+![][imagenes/contenedorubuntu.png]
 
 Nos salimos del contenedor y comprobamos que está inactivo con el comando **ps \-a**, ya que con este comando nos muestra los contenedores que están inactivos .  
-![][image4]
+![][]
 
 Volvemos a iniciar el contenedor y comprobamos que con el **docker ps** nos muestra los contenedores que están activos.  
 ![][image5]
