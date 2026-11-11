@@ -1,7 +1,7 @@
 # **TAREA MÓDULO 2.- Ejecutando y gestionando contenedores.**
 
 Una vez tenemos iniciado docker, debemos descargarnos algunas imágenes mediante el comando  **docker pull** .  
-![dockerpull.png](./imagenes/dockerpull.png)
+![dockerpull.png](imagenes/dockerpull.png)
 
 Para comprobar que todas las imágenes se han descargado correctamente, miraremos que se hace un listado con las imágenes descargadas con el comando docker images.  
 ![][image2]
