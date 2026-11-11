@@ -9,9 +9,8 @@ Para comprobar que todas las imágenes se han descargado correctamente, miraremo
 
 A continuación, con las imágenes ya descargadas vamos a iniciar un contenedor que tenga la imagen de ubuntu.  
 ![][imagenes/contenedorubuntu.png]
-
 Nos salimos del contenedor y comprobamos que está inactivo con el comando **ps \-a**, ya que con este comando nos muestra los contenedores que están inactivos .  
-![][]
+![][imagenes/compro_cont_ubuntu.png]
 
 Volvemos a iniciar el contenedor y comprobamos que con el **docker ps** nos muestra los contenedores que están activos.  
 ![][image5]
